@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <body onload="init()">
+
+        <header>
+            <h1 id="h1">Available Fridge</h1>
+            <link rel="stylesheet" href="../css/page2.css">
+        </header>
+        
+        <div id ="list">
+            <!--<button id = "back"><img src="../images/icons8-menu-50.png" style="right: 100%"/></button>;-->
+            <ul id ="button"></ul>
+
+        </div>
+        <!--<button id="back" img src="../images/back.png"></button>-->      
+        
+        <div id="main">
+            <div class ="column left" id="left"></div>
+            <div class ="column middle" id="middle"></div>
+            <div class ="column right" id="right"></div>
+        </div>
+
+    </body>
+    <script src="../js/community-fridge.js"></script>
+    <script src="../js/comm-fridge-data.js"></script>
+    <script>
+        document.getElementById("back").onclick = function () {
+        location.href = "index.html";
+        };
+    </script>
+    
+</html>
