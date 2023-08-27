@@ -1,0 +1,22 @@
+button{
+	background-color: rgb(211, 81, 91);
+	color: white;
+	padding: 1em;
+	border-radius: 1em;
+	border: none;
+	width: 150px;
+    text-align:center;
+    position: relative;
+	margin: 15px;
+}
+
+button:hover{
+	background-color: antiquewhite;
+	color: darkred;
+}
+
+body{
+    background-color: lightblue;
+    text-align: center;  
+}
+
