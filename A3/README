@@ -1,1 +1,7 @@
+Name:           Samarth Gurunath Wachche
+StudentID:      101210870
 
+Description:    files: all the html, js, css and images are stored in the public folder
+                the server and the router js files are in the main directory.
+
+Running:        node server.js
